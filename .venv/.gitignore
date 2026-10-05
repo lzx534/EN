@@ -1,0 +1,10 @@
+# created by virtualenv automatically
+# 已调整：默认忽略所有内容，但保留用户直接放在虚拟环境根目录中的代码
+*
+!.gitignore
+!/*.py
+!/*.ipynb
+!Scripts/
+/Scripts/activate_this.py
+!Scripts/爬虫/
+!Scripts/爬虫/**

@@ -1,0 +1,16 @@
+# IDE 配置
+.idea/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境：忽略依赖和可执行文件，保留用户自己的代码
+# 注意：.venv 内部的详细规则由 .venv/.gitignore 控制
+.venv/*
+!.venv/*.py
+!.venv/*.ipynb
+!.venv/Scripts/
+!.venv/Scripts/爬虫/
+!.venv/Scripts/爬虫/**
